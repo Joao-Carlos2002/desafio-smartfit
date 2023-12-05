@@ -1,0 +1,45 @@
+@media (max-width: 480px) {
+  section {
+    margin: 3vw;
+    .container-unit {
+      background-color: var(--light-grey);
+      border-radius: 5px;
+      padding: 1.2rem 1.5rem;
+      .status-unit {
+        color: var(--green);
+        margin-bottom: 1rem;
+      }
+      h1 {
+        color: var(--dark-grey);
+        font-size: 30px;
+      }
+      .address-unit {
+        margin-top: 0.8rem;
+        width: 16rem;
+      }
+      .hr {
+        margin: 2vh 0;
+        background-color: var(--medium-grey);
+      }
+      .images-container {
+        display: flex;
+        margin-bottom: 3vh;
+        img {
+          width: 20vw;
+          height: 18vw;
+        }
+      }
+      .hour-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        .day-container {
+          margin: 0 10% 7% 0;
+          p {
+            margin: 10% 0;
+          }
+        }
+      }
+    }
+  }
+}
