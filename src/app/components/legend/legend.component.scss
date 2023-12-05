@@ -1,0 +1,24 @@
+@media (max-width: 480px) {
+  section {
+    margin: 6vw;
+    padding-bottom: 3vh;
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      margin: 3vh 0;
+    }
+    .items-container {
+      display: flex;
+      .legend-container {
+        text-align: center;
+        margin: 0 2vw;
+        img {
+          width: 20vw;
+          height: 18vw;
+        }
+      }
+    }
+  }
+}
