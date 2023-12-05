@@ -7,6 +7,12 @@
 
 body {
   font-family: 'Gotham';
+
+  .hr {
+    background-color: var(--light-grey);
+    height: 1px;
+    width: 100%;
+  }
 }
 
 @font-face {
